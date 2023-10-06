@@ -93,6 +93,7 @@ class ToDoList extends Component {
   }
 
   getItemCountText() {
+    // get text for completed list
     const meta = this.getMeta();
     let itemCountText = '';
 
